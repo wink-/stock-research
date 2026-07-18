@@ -74,6 +74,21 @@ src/stock_research/
 
 Read-only, no brokerage endpoints. Token cost per report: ~0 LLM tokens for the data layer (all local computation); optional LLM narrative layer in Phase 2.
 
+<!-- PROJECT-DOCS:START -->
+## Project Documentation
+
+Supplemental OKF-style documentation lives in [docs/index.md](docs/index.md). Start with `README.md` (this file), then `docs/index.md` for progressive disclosure.
+
+### Key Docs
+
+- [docs/index.md](docs/index.md) - Entry point and navigation
+- [docs/architecture.md](docs/architecture.md) - Structure, subsystems, key files
+- [docs/setup.md](docs/setup.md) - How to get running locally
+- [docs/status.md](docs/status.md) - Current phase, roadmap, what to work on next
+- [docs/notes.md](docs/notes.md) - Gotchas, solutions, tribal knowledge
+- [docs/log.md](docs/log.md) - Chronological history of changes
+<!-- PROJECT-DOCS:END -->
+
 ## License
 
 MIT
