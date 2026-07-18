@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+reports/
+*.egg-info/
+.pytest_cache/
+
+# Secrets - never commit
+.env
+.env.*
+*.key
+*.pem
+secrets/
+token.json

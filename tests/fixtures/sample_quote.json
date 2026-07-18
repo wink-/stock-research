@@ -1,0 +1,62 @@
+{
+  "KMI": {
+    "assetMainType": "EQUITY",
+    "assetSubType": "COE",
+    "quoteType": "NBBO",
+    "realtime": true,
+    "symbol": "KMI",
+    "fundamental": {
+      "avg10DaysVolume": 8765770.0,
+      "avg1YearVolume": 13382558.0,
+      "declarationDate": "2026-04-22T00:00:00Z",
+      "divAmount": 1.19,
+      "divExDate": "2026-05-04T00:00:00Z",
+      "divFreq": 4,
+      "divPayAmount": 0.2975,
+      "divPayDate": "2026-05-15T00:00:00Z",
+      "divYield": 3.65704,
+      "eps": 1.36752,
+      "fundLeverageFactor": 0.0,
+      "lastEarningsDate": "2026-04-22T00:00:00Z",
+      "nextDivExDate": "2026-08-04T00:00:00Z",
+      "nextDivPayDate": "2026-08-17T00:00:00Z",
+      "peRatio": 21.94083,
+      "sharesOutstanding": 2224825757
+    },
+    "quote": {
+      "52WeekHigh": 34.805,
+      "52WeekLow": 25.6,
+      "askPrice": 32.58,
+      "askSize": 1400,
+      "bidPrice": 32.57,
+      "bidSize": 500,
+      "closePrice": 32.54,
+      "highPrice": 32.965,
+      "lastPrice": 32.58,
+      "lowPrice": 32.455,
+      "mark": 32.58,
+      "markChange": 0.04,
+      "markPercentChange": 0.12292563,
+      "netChange": 0.04,
+      "netPercentChange": 0.12292563,
+      "openPrice": 32.92,
+      "securityStatus": "Normal",
+      "totalVolume": 2421690
+    },
+    "reference": {
+      "cusip": "49456B101",
+      "description": "KINDER MORGAN INC DE",
+      "exchange": "N",
+      "exchangeName": "NYSE",
+      "isHardToBorrow": false,
+      "isShortable": true,
+      "optionable": true
+    },
+    "regular": {
+      "regularMarketLastPrice": 32.58,
+      "regularMarketLastSize": 100,
+      "regularMarketNetChange": 0.04,
+      "regularMarketPercentChange": 0.12292563
+    }
+  }
+}
