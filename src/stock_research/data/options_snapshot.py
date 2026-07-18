@@ -2,6 +2,7 @@
 from __future__ import annotations
 from datetime import date, datetime, timezone
 import math
+from schwab.client import Client
 from stock_research.models import OptionsSnapshot
 
 
@@ -120,8 +121,8 @@ def fetch_options_snapshot(client, symbol: str, today: date | None = None) -> Op
     """Live fetch nearest standard monthly chain."""
     resp = client.get_option_chain(
         symbol,
-        contract_type="ALL",
-        strategy="SINGLE",
+        contract_type=Client.Options.ContractType.ALL,
+        strategy=Client.Options.Strategy.SINGLE,
         strike_count=30,
         include_underlying_quote=True,
     )

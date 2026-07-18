@@ -69,6 +69,8 @@ def build_report(
             options = fetch_options_snapshot(client, symbol)
         except Exception as e:
             options = None
+            import sys
+            print(f"[warn] options snapshot failed: {type(e).__name__}: {e}", file=sys.stderr)
 
     # News
     news = []
